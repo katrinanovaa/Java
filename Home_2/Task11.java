@@ -30,7 +30,7 @@ public class Task11 {
 
     }
     public static void main(String[] args) throws Exception {
-        String [] list = ReadLineFromFile("C:\\GB\\Java\\Homework\\src\\main\\java\\ru\\novikova\\java\\homework2\\dataForReading.txt");
+        String [] list = ReadLineFromFile("C:\\GB\\Java\\Homework\\src\\main\\java\\ru\\novikova\\java\\homework2\\doc.txt");
         System.out.println(list[0]);
         StringBuilder resultSelect = LineInList(list[0]);
         System.out.println(resultSelect);
